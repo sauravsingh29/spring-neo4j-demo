@@ -1,0 +1,8 @@
+com\demo\repo\UserRepository.class
+com\demo\model\Users.class
+com\demo\main\Execute.class
+com\demo\model\rel\ReadWriteRelation.class
+com\demo\model\Role.class
+com\demo\model\rel\ReadRelation.class
+com\demo\config\NeoConfig.class
+com\demo\repo\RoleRepository.class
