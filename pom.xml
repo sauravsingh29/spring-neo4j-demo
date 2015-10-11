@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples</groupId>
-	<artifactId>spring-mssql-neo4j</artifactId>
+	<artifactId>spring-neo4j-demo</artifactId>
 	<version>1.0.0T</version>
 
 	<parent>
