@@ -19,7 +19,7 @@ public class NeoConfig extends Neo4jConfiguration {
 	
 	@Bean
 	GraphDatabaseService graphDatabaseService() {
-		return new GraphDatabaseFactory().newEmbeddedDatabaseBuilder("C:\\temp\\neo\\neo.db").setConfig(GraphDatabaseSettings.allow_store_upgrade, "true").newGraphDatabase();
+		return new GraphDatabaseFactory().newEmbeddedDatabaseBuilder("C:\\temp\\neo_demo\\neo.db").setConfig(GraphDatabaseSettings.allow_store_upgrade, "true").newGraphDatabase();
 	}
 	
 	@Bean

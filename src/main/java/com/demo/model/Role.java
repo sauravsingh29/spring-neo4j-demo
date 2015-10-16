@@ -9,16 +9,8 @@ public class Role {
 
 	@GraphId Long id;
 	
-	@Indexed(unique = true)
-	public String role;
-
-	
-	public Role(String role) {
-		this.role = role;
-	}
-
-	public Role() {
-	}
+	@Indexed
+	public String roleName;
 
 	/**
 	 * @return the id
@@ -27,8 +19,6 @@ public class Role {
 		return id;
 	}
 
-
-
 	/**
 	 * @param id the id to set
 	 */
@@ -36,25 +26,19 @@ public class Role {
 		this.id = id;
 	}
 
-
-
 	/**
-	 * @return the role
+	 * @return the roleName
 	 */
-	public String getRole() {
-		return role;
+	public String getRoleName() {
+		return roleName;
 	}
 
-
-
 	/**
-	 * @param role the role to set
+	 * @param roleName the roleName to set
 	 */
-	public void setRole(String role) {
-		this.role = role;
+	public void setRoleName(String roleName) {
+		this.roleName = roleName;
 	}
-
-
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
@@ -64,8 +48,8 @@ public class Role {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Role [id=");
 		builder.append(id);
-		builder.append(", role=");
-		builder.append(role);
+		builder.append(", roleName=");
+		builder.append(roleName);
 		builder.append("]");
 		return builder.toString();
 	}

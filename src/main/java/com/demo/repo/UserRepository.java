@@ -13,5 +13,7 @@ import com.demo.model.Users;
  */
 
 public interface UserRepository extends CrudRepository<Users, String>{
-	Users findByName(String userName);
+	Users findByUserName(String userName);
+	Users findByLoginName(String loginName);
+	Users findByDesignation(String designation);
 }

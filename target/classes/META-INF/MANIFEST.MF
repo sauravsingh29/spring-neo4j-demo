@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Implementation-Title: spring-mssql-neo4j
+Implementation-Title: spring-neo4j-demo
 Implementation-Version: 1.0.0T
 Built-By: 212473604
 Implementation-Vendor-Id: org.springframework.samples
